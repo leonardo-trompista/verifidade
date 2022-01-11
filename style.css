@@ -1,0 +1,93 @@
+body {
+/* background-color: rgb(214, 213, 135);
+ font: normal 15pt Arial;
+}*/
+
+   
+    background: rgb(172, 62, 166);
+    animation: mymove 5s infinite;
+}
+  
+@keyframes mymove {
+    50% {background-color: rgb(88, 88, 165);}
+}
+
+header {
+color: white;
+text-align: center;
+}
+
+section {
+background-color: white;
+border-radius: 30px;
+padding: 15px;
+width: 300px;
+margin: auto;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.699);
+}
+img {
+    padding: 1cm;
+}
+
+
+div {
+    
+    padding: 8px;
+}
+
+h1 {
+    font: normal 35pt Arial;
+    text-align: center;
+}
+#dia {
+    text-shadow: 0 0 15px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    display: inline-block;
+    
+} 
+#par {
+    text-align: center;
+}
+
+#rodape {
+    letter-spacing: .2rem;
+    padding-top: 10cm;
+    
+}
+footer {
+color: white;
+text-align: center;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    h1 {
+        font: normal 35pt Arial;
+        text-align: center;
+      }
+}
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font: normal 25pt Arial;
+        text-align: center;
+      }
+}
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font: normal 20pt Arial;
+        text-align: center;
+      }
+}
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    h1 {
+        font: normal 15pt Arial;
+        text-align: center;
+      }
+}
+  

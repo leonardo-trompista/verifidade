@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()">
+    
+    <header>
+
+        <h1 id="dia">verificador de idade</h1>
+      
+
+    </header>
+
+    <section id="secao">
+        <div id="horario">
+            <p id="par">Ano de Nascimento:&nbsp;
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Gênero:
+                <br>
+                <input type="radio" name="radsex" id="mas">
+                <label for="mas">Masculino</label>
+                <br>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+                <br>
+                <input type="radio" name="radsex" id="out">
+                <label for="out">Outro</label>
+            </p>
+            <p>
+                <input type="button" value="Testar" onclick="verificar()">
+            </p>
+
+            
+        </div>
+
+        <div id="res">
+            Preencha os dados acima
+        </div>
+        <div id="ref">
+
+        </div>
+
+    </section>
+
+
+    <footer>
+<h5 id="rodape">&copy;By Leonardo Abreu</h5>
+<script src="script.js"></script>
+
+    </footer>
+</body>
+</html>
